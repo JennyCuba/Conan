@@ -129,4 +129,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para má
 
 Si tienes preguntas o sugerencias, no dudes en contactarme:
 - **Email**: jenny.cuba.c@gmail.com
-- **GitHub**: [tu-usuario](https://github.com/tu-usuario)
+- **GitHub**: [tu-usuario](https://github.com/JennyCuba)
