@@ -81,7 +81,7 @@ def generate_photography_tips(prompt_description):
         logging.error("Prompt description is empty.")
         raise ValueError("Prompt description cannot be empty.")
     
-    prompt = f"Basándote en la siguiente descripción de una imagen de un producto artesanal: '{prompt_description}', proporciona consejos prácticos para tomar fotografías de productos de manera sencilla para usuarios con poco conocimiento en fotografía. Incluye recomendaciones sobre iluminación, ángulos y fondo, en no más de 500 palabras."
+    prompt = f"Basándote en la siguiente descripción de una imagen de un producto artesanal: '{prompt_description}', proporciona consejos prácticos para tomar fotografías de productos de manera sencilla para usuarios con poco conocimiento en fotografía. Incluye recomendaciones sobre iluminación, ángulos y fondo, en no más de 400 palabras."
     try:
         response = openai.chat.completions.create(
             model="gpt-4",
